@@ -1,0 +1,24 @@
+.mobile-view {
+  display: none;
+}
+.mobile-view-header {
+  padding: 4px;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+p {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+mheader_P {
+  padding-left: 20px;
+
+  font-weight: bold;
+}
+
+.mtd_img {
+  display: inline;
+  margin-left: 20px;
+  margin-top: 10px;
+}

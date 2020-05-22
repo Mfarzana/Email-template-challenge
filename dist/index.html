@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment</title>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.5.1.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.datatables.net/plug-ins/1.10.21/sorting/datetime-moment.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    ></script>
+    <script type="text/javascript" src="js/controller.js"></script>
+    <script type="text/javascript" src="js/web.js"></script>
+    <script type="text/javascript" src="js/mobile.js"></script>
+    <!-- for mobile screen-->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"
+    />
+
+    <link href="css/web.css" rel="stylesheet" type="text/css" />
+    <link href="css/mobile.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body class="container-fluid">
+    <div class="web-view">
+      <div class="row justify-content-md-center">
+        <div class="col col-10" id="list-div">
+          <!-- div for list -->
+          <table
+            id="example"
+            class="table table-hover div-table"
+            cellspacing="0"
+            width="100%"
+          ></table>
+        </div>
+        <!-- close list-div -->
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col-md-10" id="details-div">
+        <!-- div for details -->
+        <table
+          id="details-table"
+          class="table details_list"
+          cellspacing="0"
+          width="100%"
+        ></table>
+      </div>
+      <!-- close details-div-->
+    </div>
+
+    <!-- start mobile view  -->
+    <div class="mobile-view">
+      <div class="row justify-content-sm-center">
+        <div class="col-sm-10">
+          <div class="input-group col col-sm-8">
+            <input
+              class="form-control bg-light"
+              id="date_range_mobile"
+              type="text"
+            />
+            <div class="input-group-append">
+              <span class="input-group-text search-data" id="search-data">
+              </span>
+            </div>
+          </div>
+          <br />
+          <div class="col-sm-12 mobile-view-header">
+            <p>
+              <b>From </b><img src="images/icon_arrow01.png" />
+              &nbsp; | &nbsp;To&nbsp; | &nbsp;Subject |&nbsp; Date
+            </p>
+          </div>
+          <div class="col-sm-12 mobile-view-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- end mobile view  -->
+
+    <script>
+      // executes when HTML-Document is loaded and DOM is ready
+      // check window load and ready mobile screen
+    </script>
+  </body>
+</html>

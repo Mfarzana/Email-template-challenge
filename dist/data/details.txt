@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "1": {
+        "from": "jon@example.com",
+        "to": "bbbb@example.com",
+        "subject": "new product details",
+        "date": "22020-01-03",
+         "attach":"true",
+        "details": "Hello bbbb, <br>A compelling product description provides customers with details around features, problems it solves and other benefits to help generate a sale.<br><br> Regards,<br> Jon  <br><br> <a href='http://www.pdf995.com/samples/pdf.pdf'>Product Details Note PDF</a>"
+      },
+      "2": {
+        "1": {
+          "from": "jony@example.com",
+          "to": "brownning@example.com  ",
+          "subject": "work schedule ",
+          "date": "2020-02-03",
+           "attach":"true",
+          "details": "Hello Brownning,<br>Here I attached work schedule for one week . If you have questions regarding your schedule or timesheets, you can ask.<br><br>Regards,<br>Jony <br><br> <a href='https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'>Work Schedule PDF </a>"
+            },
+        "2": {
+          "from": "brownning@example.com",
+          "to": "jony@example.com  ",
+          "subject": "work schedule ",
+          "date": "2020-02-03",
+          "attach":"false",
+          "details": " Thank you !."
+        },
+        "3": {
+          "from": "jony@example.com",
+          "to": "brownning@example.com ",
+          "subject": "work schedule ",
+          "date": "2020-02-03",
+           "attach":"false",
+          "details": "You are welcome !"
+        }
+      },
+      "3": {
+        "1": {
+          "from": "dev@example.com",
+          "to": "bbbb@example.com ",
+          "subject": "System Problem",
+          "date": "2020-01-03",
+           "attach":"false",
+          "details":"Dear Bob,<br>Dependable and Secure Systems Engineering. 1 ****t=100 17 *****t=200 2 format 8 18 3 19 mstree BS200 4 mstree BS100 20 basic B1:4 prob(0.6930) 5 basic <br><br>Regards,<br>dev"
+        },
+        "2": {
+          "from": "bbbb@example.com",
+          "to": "dev@example.com",
+          "subject": "System Problem",
+          "date": "2020-01-03",
+           "attach":"false",
+          "details": "Hello dev,<br> oh I see. I will check it <br><br> Regards,<br>Bob"
+        }
+      },
+      "4": {
+        "from": "agnel@example.com",
+        "to": "jim@example.com ",
+        "subject": "System Problem",
+        "date": "2020-04-03",
+         "attach":"false",
+        "details": "Hi Jim,<br>Dependable and Secure Systems Engineering. 1 ****t=100 17 *****t=200 5 basic  <br><br> Regards,<br>Angeli"
+      },
+      "5": {
+        "from": "agnel@example.com",
+        "to": "jim@example.com",
+        "subject": "Notice of official announcement",
+        "date": "2020-05-03",
+         "attach":"false",
+        "details": "Hi Kavin,<br> Hi JimOffice Closed Notice. We would like to announce that our office will be closed from August 11 from 19, 2018 due to summer holiday. We will respond your email .<br><br> Regards,<br>Angeli"
+      },
+      "6":{
+      "from": "ekeef@example.com",
+      "to": "simon@example.com",
+      "subject": "testing document",
+      "date": "2020/05/22 11:02",
+      "total_mail":"0",
+      "attach":"false"
+    }
+    }
+  ]
+}
