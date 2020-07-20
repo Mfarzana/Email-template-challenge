@@ -1,7 +1,7 @@
 ## Email-template-challenge
 ### Email template using Datatable, Jquery, AJAX, HTML, CSS, Boostrap, Moment, Daterangepicker and JSON Data
 
-- ** APP REPORT **
+- **APP REPORT**
 - https://github.com/Mfarzana/Email-template-challenge/issues/1
 
 - ** APP IMPROVEMENTS **
